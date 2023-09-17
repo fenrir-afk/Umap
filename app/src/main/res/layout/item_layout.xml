@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="230dp"
+    android:orientation="vertical"
+    android:background="@drawable/poisk"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/black"
+        android:hint="Enter latitude"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:textColor="@color/black"
+        android:id="@+id/edit2"
+        android:textColorHint="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter longitude"
+        android:minHeight="48dp" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add marker"/>
+    <Button
+        android:id="@+id/current"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Add current"/>
+    <CheckBox
+        android:textColor="@color/black"
+        android:id="@+id/box"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="Draw a line"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
